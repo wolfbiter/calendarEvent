@@ -1,12 +1,12 @@
 var resource = require('resource');
 var calendarEvent = resource.define('calendarEvent');
 
-calendarEvent.schema.description = 'for creating calendar events'
+calendarEvent.schema.description = 'for creating calendar events';
 
 //
 // calendarEvent property definitions
 //
-calendarEvent.property('description', { 
+calendarEvent.property('description', {
   "description": "a description of the calendar event",
   "type": "string"
 });
